@@ -11,6 +11,7 @@
         "phpunit/phpunit": "^5.7"
     },
     "extra": {
+        "resources-dir": "_resources",
         "branch-alias": {
             "4.x-dev": "4.2.x-dev",
             "dev-master": "5.x-dev"
