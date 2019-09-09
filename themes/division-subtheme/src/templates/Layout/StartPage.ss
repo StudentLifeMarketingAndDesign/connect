@@ -29,19 +29,19 @@ $Header
 	
 	<div class="column">
 		<div class="hub__tile">
-		<h2>Schedule</h2> <p class="description">View all staff schedules for the semester + breaks.<br><br>Common schedule links:<br><a class="link__text" href="https://otis.imu.uiowa.edu">View client assignments</a><br><a class="link__text" href="https://otis.imu.uiowa.edu"> Edit the schedule page</a></p> 
+		<h2 class="work__title">Schedule</h2> <p class="description">View all staff schedules for the semester + breaks.<br><br>Common schedule links:<br><a class="link__text" href="https://otis.imu.uiowa.edu">View client assignments</a><br><a class="link__text" href="https://otis.imu.uiowa.edu"> Edit the schedule page</a></p> 
 		</div>
 	</div>
 	
 	<div class="column">
 		<div class=" hub__tile">
-		<h2>Client Assignments</h2> <p class="description">Who is working on that one thing...? Find/edit marketing client assignments here. </p> 
+		<h2 class="work__title">Client Assignments</h2> <p class="description">Who is working on that one thing...? Find/edit marketing client assignments here. </p> 
 		</div>
 	</div>
 	
 	<div class="column">
 		<div class=" hub__tile">
-		<h2>Wiki</h2> <p class="description">View basic departmental info, staff schedules, client assignments, and other general information.</p> 
+		<h2 class="work__title">Wiki</h2> <p class="description">View basic departmental info, staff schedules, client assignments, and other general information.</p> 
 		</div>
 	</div>
 	

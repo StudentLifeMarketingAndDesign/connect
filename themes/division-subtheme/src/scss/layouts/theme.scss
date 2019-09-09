@@ -51,7 +51,7 @@
  	padding-bottom:15px;
  	margin: auto;
  	display: block;
- 	box-shadow:10px 10px 13px 0px rgba(0,0,0,.5)
+ 	box-shadow:5px 5px 13px 0px rgba(0,0,0,.3)
  }
  .hub__title{
  	text-align:center;
@@ -69,7 +69,7 @@
  	margin-right:10px;
  	margin-bottom:20px;
  	padding: 5px 40px;
- 	box-shadow:10px 10px 13px 0px rgba(0,0,0,.5)
+ 	box-shadow:5px 5px 13px 0px rgba(0,0,0,.3)
  }
   .hub__tile--big{
   	color:white;
@@ -109,7 +109,7 @@
  	margin-right:auto;
  	margin-left:auto;
  	margin-top:50px;
- 	box-shadow:10px 10px 13px 0px rgba(0,0,0,.5)
+ 	box-shadow:5px 5px 13px 0px rgba(0,0,0,.3)
  }
 .link__title{
 	font-size:20px;
@@ -117,4 +117,7 @@
 .link__text{
 	color:#FFCD00;
 	text-decoration:underline;
+}
+.work__title{
+	margin-top:15px;
 }
