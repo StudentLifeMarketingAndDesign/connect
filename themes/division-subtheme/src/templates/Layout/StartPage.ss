@@ -95,19 +95,19 @@ $Header
 <div class="row large-up-4">
 	<div class="column">
 		<div class="hub__tile">
-		<h2 class="link__title">Portfolio Process</h2> 
+		<a class="link__title" href="https://otis.imu.uiowa.edu">Portfolio Process</a> 
 	</div>
 	</div>
 	
 	<div class="column">
 		<div class="hub__tile">
-		<h2 class="link__title">Wiki</h2> 
+		<a class="link__title" href="https://otis.imu.uiowa.edu">Wiki</a> 
 	</div>
 	</div>
 	
 	<div class="column">
 		<div class="hub__tile">
-		<h2 class="link__title">Slack</h2> 
+		<a class="link__title" href="https://otis.imu.uiowa.edu">Slack</a> 
 	</div>
 	
 </div>
@@ -115,7 +115,7 @@ $Header
 	<div class="column">
 		<div class="hub__tile">
 		
-		<h2 class="link__title">GitHub</h2>
+		<a class="link__title" href="https://otis.imu.uiowa.edu">GitHub</a>
 	</div>
 		
  </div>
@@ -123,7 +123,7 @@ $Header
 	<div class="column">
 		<div class="hub__tile">
 		
-		<h2 class="link__title">Facebook Group (Current Staff)</h2> 
+		<a class="link__title" href="https://otis.imu.uiowa.edu">Facebook Group (Current Staff)</a> 
 	</div>
 	
 </div>
@@ -131,7 +131,7 @@ $Header
 <div class="column">
 		<div class="hub__tile">
 		
-		<h2 class="link__title">LinkedIn</h2> 
+		<a class="link__title" href="https://otis.imu.uiowa.edu">LinkedIn</a> 
 	</div>
 	
 </div>
@@ -139,7 +139,7 @@ $Header
 <div class="column">
 		<div class="hub__tile">
 		
-		<h2 class="link__title">M+D Website</h2> 
+		<a class="link__title" href="https://otis.imu.uiowa.edu">M+D Website</a> 
 	</div>
 	
 </div>
@@ -147,7 +147,7 @@ $Header
 <div class="column">
 		<div class="hub__tile">
 		
-		<h2 class="link__title">Flickr</h2> 
+		<a class="link__title" href="https://otis.imu.uiowa.edu">Flickr</a> 
 	</div>
 	
 </div>
