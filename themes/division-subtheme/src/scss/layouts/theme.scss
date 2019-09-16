@@ -69,13 +69,14 @@
  	margin-right:10px;
  	margin-bottom:20px;
  	padding: 5px 40px;
+ 	min-height:250px;
  	box-shadow:5px 5px 13px 0px rgba(0,0,0,.3)
  }
   .hub__tile--big{
   	color:white;
  	border-style: none none solid none;
  	border-color:#FFCD00;
- 	min-height: 550px;
+ 	min-height: 700px;
  	border-width: 50px;
  	background:linear-gradient(rgba(0,0,0,.5), transparent), url("../images/portrait.jpg");
  }
@@ -90,6 +91,18 @@
  .hub__tile--news3{
  	color:white;
  	background:linear-gradient(rgba(0,0,0,.5), transparent), url("../images/news3.jpg");
+ }
+ .hub__bottom{
+ 	background-color: black;
+ 	text-align:left;
+ 	color:#FFCD00;
+ 	border-radius: 10px;
+ 	margin-left:10px;
+ 	margin-right:10px;
+ 	margin-bottom:20px;
+ 	padding: 5px 40px;
+ 	max-height:100px;
+ 	box-shadow:5px 5px 13px 0px rgba(0,0,0,.3)
  }
  .hub__link{
  	background-color: black;
@@ -122,4 +135,7 @@
 }
 .work__title{
 	margin-top:15px;
+}
+.launch__link{
+	color:black;
 }

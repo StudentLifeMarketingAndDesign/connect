@@ -13,7 +13,7 @@ $Header
 	
 	<div class="column large-4 large-centered">
 		
-		<button class="launch__button"><p class="activecollab__title">Launch ActiveCollab</p></button>
+		<button class="launch__button"><p class="activecollab__title"><a class="launch__link" href="https://activecollab.com/login?message_id=_ffdfa5f629c887b989d1048a95fae4174cd8b1dce2">Launch ActiveCollab</a></p></button>
 	</div>
 </div>
 <div class="row">
@@ -42,6 +42,42 @@ $Header
 	<div class="column">
 		<div class=" hub__tile">
 		<h2 class="work__title">Wiki</h2> <p class="description">View basic departmental info, staff schedules, client assignments, and other general information.</p> 
+		</div>
+	</div>
+
+	<div class="column">
+		<div class=" hub__tile">
+		<h2 class="work__title">Digital Signs</h2> <p class="description">IMU Screens.</p> 
+		</div>
+	</div>
+
+	<div class="column">
+		<div class=" hub__tile">
+		<h2 class="work__title">Human Resources Website</h2> <p class="description">Correct timesheets, learn how to clock in/out.</p> 
+		</div>
+	</div>
+
+	<div class="column">
+		<div class=" hub__tile">
+		<h2 class="work__title">TreeRing(Timeclock)</h2> <p class="description">Manage time worked.</p> 
+		</div>
+	</div>
+
+	<div class="column">
+		<div class=" hub__tile">
+		<h2 class="work__title">M+D Sharepoint Site</h2> <p class="description">Digital campaign materials for distrubution -videos, etc.</p> 
+		</div>
+	</div>
+
+	<div class="column">
+		<div class=" hub__tile">
+		<h2 class="work__title">Facebook Group (Current Staff)</h2> <p class="description">For current M+D'ers!</p> 
+		</div>
+	</div>
+
+	<div class="column">
+		<div class=" hub__tile">
+		<h2 class="work__title">GitHub</h2> <p class="description">M+D GitHub</p> 
 		</div>
 	</div>
 	
@@ -94,26 +130,26 @@ $Header
 
 <div class="row large-up-4">
 	<div class="column">
-		<div class="hub__tile">
+		<div class="hub__bottom">
 		<a class="link__title" href="https://otis.imu.uiowa.edu">Portfolio Process</a> 
 	</div>
 	</div>
 	
 	<div class="column">
-		<div class="hub__tile">
+		<div class="hub__bottom">
 		<a class="link__title" href="https://otis.imu.uiowa.edu">Wiki</a> 
 	</div>
 	</div>
 	
 	<div class="column">
-		<div class="hub__tile">
+		<div class="hub__bottom">
 		<a class="link__title" href="https://otis.imu.uiowa.edu">Slack</a> 
 	</div>
 	
 </div>
 	
 	<div class="column">
-		<div class="hub__tile">
+		<div class="hub__bottom">
 		
 		<a class="link__title" href="https://otis.imu.uiowa.edu">GitHub</a>
 	</div>
@@ -121,7 +157,7 @@ $Header
  </div>
 	
 	<div class="column">
-		<div class="hub__tile">
+		<div class="hub__bottom">
 		
 		<a class="link__title" href="https://otis.imu.uiowa.edu">Facebook Group (Current Staff)</a> 
 	</div>
@@ -129,7 +165,7 @@ $Header
 </div>
 
 <div class="column">
-		<div class="hub__tile">
+		<div class="hub__bottom">
 		
 		<a class="link__title" href="https://otis.imu.uiowa.edu">LinkedIn</a> 
 	</div>
@@ -137,7 +173,7 @@ $Header
 </div>
 
 <div class="column">
-		<div class="hub__tile">
+		<div class="hub__bottom">
 		
 		<a class="link__title" href="https://otis.imu.uiowa.edu">M+D Website</a> 
 	</div>
@@ -145,7 +181,7 @@ $Header
 </div>
 
 <div class="column">
-		<div class="hub__tile">
+		<div class="hub__bottom">
 		
 		<a class="link__title" href="https://otis.imu.uiowa.edu">Flickr</a> 
 	</div>
