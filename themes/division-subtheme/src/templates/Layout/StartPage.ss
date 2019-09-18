@@ -1,5 +1,5 @@
 $Header
-<div class="row">
+<div class="row-fluid">
 	<div class="column one">
 
 		<img src="{$ThemeDir}/dist/images/md_color.png">
@@ -29,55 +29,55 @@ $Header
 	
 	<div class="column">
 		<div class="hub__tile">
-		<h2 class="work__title">Schedule</h2> <p class="description">View all staff schedules for the semester + breaks.<br><br>Common schedule links:<br><a class="link__text" href="https://otis.imu.uiowa.edu">View client assignments</a><br><a class="link__text" href="https://otis.imu.uiowa.edu"> Edit the schedule page</a></p> 
+		<h2 class="work__title"><a class="tile__title" href="https://www.google.com">Schedule</a></h2> <p class="description">View all staff schedules for the semester + breaks.<br><br>Common schedule links:<br><a class="link__text" href="https://otis.imu.uiowa.edu">View client assignments</a><br><a class="link__text" href="https://otis.imu.uiowa.edu"> Edit the schedule page</a></p> 
 		</div>
 	</div>
 	
 	<div class="column">
 		<div class=" hub__tile">
-		<h2 class="work__title">Client Assignments</h2> <p class="description">Who is working on that one thing...? Find/edit marketing client assignments here. </p> 
+		<h2 class="work__title"><a class="tile__title" href="https://www.google.com">Client Assignments</a></h2> <p class="description">Who is working on that one thing...? Find/edit marketing client assignments here. </p> 
 		</div>
 	</div>
 	
 	<div class="column">
 		<div class=" hub__tile">
-		<h2 class="work__title">Wiki</h2> <p class="description">View basic departmental info, staff schedules, client assignments, and other general information.</p> 
+		<h2 class="work__title"><a class="tile__title" href="https://www.google.com">Wiki</a></h2> <p class="description">View basic departmental info, staff schedules, client assignments, and other general information.</p> 
 		</div>
 	</div>
 
 	<div class="column">
 		<div class=" hub__tile">
-		<h2 class="work__title">Digital Signs</h2> <p class="description">IMU Screens.</p> 
+		<h2 class="work__title"><a class="tile__title" href="https://www.google.com">Digital Signs</a></h2> <p class="description">IMU Screens.</p> 
 		</div>
 	</div>
 
 	<div class="column">
 		<div class=" hub__tile">
-		<h2 class="work__title">Human Resources Website</h2> <p class="description">Correct timesheets, learn how to clock in/out.</p> 
+		<h2 class="work__title"><a class="tile__title" href="https://www.google.com">Human Resources Website</a></h2> <p class="description">Correct timesheets, learn how to clock in/out.</p> 
 		</div>
 	</div>
 
 	<div class="column">
 		<div class=" hub__tile">
-		<h2 class="work__title">TreeRing(Timeclock)</h2> <p class="description">Manage time worked.</p> 
+		<h2 class="work__title"><a class="tile__title" href="https://www.google.com">TreeRing(Timeclock)</a></h2> <p class="description">Manage time worked.</p> 
 		</div>
 	</div>
 
 	<div class="column">
 		<div class=" hub__tile">
-		<h2 class="work__title">M+D Sharepoint Site</h2> <p class="description">Digital campaign materials for distrubution -videos, etc.</p> 
+		<h2 class="work__title"><a class="tile__title" href="https://www.google.com">M+D Sharepoint Site</a></h2> <p class="description">Digital campaign materials for distrubution -videos, etc.</p> 
 		</div>
 	</div>
 
 	<div class="column">
 		<div class=" hub__tile">
-		<h2 class="work__title">Facebook Group (Current Staff)</h2> <p class="description">For current M+D'ers!</p> 
+		<h2 class="work__title"><a class="tile__title" href="https://www.google.com">Facebook Group (Current Staff)</a></h2> <p class="description">For current M+D'ers!</p> 
 		</div>
 	</div>
 
 	<div class="column">
 		<div class=" hub__tile">
-		<h2 class="work__title">GitHub</h2> <p class="description">M+D GitHub</p> 
+		<h2 class="work__title"><a class="tile__title" href="https://www.google.com">GitHub</a></h2> <p class="description">M+D GitHub</p> 
 		</div>
 	</div>
 	
@@ -98,26 +98,26 @@ $Header
 		
 		<div class="hub__tile hub__tile--big">
 		
-		<h2>Bringing Together Art and Food</h2> <p class="description">By Megan Yoder</p>
+		<h2> <a class="news__title" href="https://www.google.com">Bringing Together Art and Food</a></h2> <p class="description">By Megan Yoder</p>
 		
 		</div>
 	</div>
 	
 	<div class="column large-6">
 		<div class="hub__tile hub__tile--news1">
-			<h3>Looking Back on Leadership: Sia Tortorelis</h3> <p class="description">By Ellysa Woods</p>
+			<h3><a class="news__title" href="https://www.google.com">Looking Back on Leadership: Sia Tortorelis</a></h3> <p class="description">By Ellysa Woods</p>
 		</div>
 		<div class="hub__tile hub__tile--news2">
-			<h3>Looking Back on Leadership: Gage Miskimen</h3> <p class="description">By Allaria Bartlett-Gray</p></div>
+			<h3><a class="news__title" href="https://www.google.com">Looking Back on Leadership: Gage Miskimen</a></h3> <p class="description">By Allaria Bartlett-Gray</p></div>
 		<div class="hub__tile hub__tile--news3">
-			<h3>Looking Back on Leadership: Hira Mustafa</h3> <h5 class="description">By Allaria Bartlett-Gray</p></div>
+			<h3><a class="news__title" href="https://www.google.com">Looking Back on Leadership: Hira Mustafa</a></h3> <h5 class="description">By Allaria Bartlett-Gray</p></div>
 		</div>
 	</div>
 	
 	<div class="row">
 	
 		<div class="column large-centered"> 
-			<button class="latest__news"><h3>See all the latest news</h3></button>
+			<button class="latest__news"><h3><a class="tile__title" href="https://www.google.com">See all the latest news</a></h3></button>
 	</div>
 
 	
