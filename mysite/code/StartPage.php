@@ -9,6 +9,11 @@ use UndefinedOffset\SortableGridField\Forms\GridFieldSortableRows;
 class StartPage extends Page {
 
 	private static $db = array(
+		'MainButtonText' => 'Text',
+		'MainButtonLink' => 'Varchar(255)',
+
+		
+
 	);
 
 	private static $has_one = array(
@@ -23,6 +28,7 @@ class StartPage extends Page {
 		$fields = parent::getCMSFields();
 
 		$fields->removeByName("Content");
+		$fields->removeByName("LayoutType");
 
 		$conf = GridFieldConfig_RelationEditor::create(10);
 		$conf->addComponent(new GridFieldSortableRows('SortOrder'));
@@ -32,7 +38,7 @@ class StartPage extends Page {
 		$serviceConf = GridFieldConfig_RecordEditor::create(10);
 
 		$fields->addFieldToTab('Root.Main', new GridField('Services', 'Services', $this->Services(), $serviceConf));
-
+		$fields->removeByName("Content");
 
 		return $fields;
 	}
