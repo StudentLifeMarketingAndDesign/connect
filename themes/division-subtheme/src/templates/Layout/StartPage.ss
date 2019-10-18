@@ -17,110 +17,77 @@ $Header
 <% end_if %>
 
 
-<%-- <% loop $Categories %>
-<div class="row">
-	<div class="column start__category-title">
-		<h2>$Title</h2>
-	</div>
+<% loop $Categories %>
+	<% if $Services %>
+		<div class="row">
+			<div class="column start__category-title">
+				<h2>$Title</h2>
+			</div>
 
-</div>
-
-
-
-<div class="row large-up-3">
-	<% loop $Services %>
-	<div class="column">
-		<div class="start-tile">
-			<h2 class="start-tile__heading"><a class="start-tile__heading-link" href="$Link">$Title</a></h2> 
-			<div class="start-tile__description">$Content</div> 
 		</div>
-	</div>
-	<% end_loop %>
-</div>
+		<div class="row large-up-3">
+			<% loop $Services %>
+			<div class="column">
+				<div class="start-tile">
+					<h2 class="start-tile__heading"><a class="start-tile__heading-link" href="$Link">$Title</a></h2> 
+					<div class="start-tile__description">$Content</div> 
+				</div>
+			</div>
+			<% end_loop %>
+		</div>
+	<% end_if %>
+<% end_loop %>
+		<div class="row">
+			<div class="column start__category-title">
+				<h2>Recent News</h2>
+			</div>
 
-<% end_loop %> --%>
-	<div class="row">
-		<div class="column large-6">
-			<div class="start-tile start-tile--big">
-				<h3 class="start-tile__news-title"><a href="https://www.google.com">Bringing Together Art and Food</a></h3> <p class="start-tile__description">By Megan Yoder</p>
+		</div>
+		<div class="row">
+			<% loop NewsPosts.Limit(1) %>
+			<div class="column large-6">
+				<div class="start-tile start-tile--big" style="background-image: url($FeaturedImageURL)">
+					<h3 class="start-tile__news-title"><a href="$Link">$Title</a></h3> <p class="start-tile__description"><% if $Authors %>
+				<em class="byline__by">By </em>
+				<% end_if %>
+				<% loop $Authors %>
+					<% if not $First && not $Last %>, <% end_if %>
+					<% if not $First && $Last %><span class="byline__and"> and </span><% end_if %>
+
+						<a href="$Link" class="byline__author">
+						$Name.XML
+					</a>
+				<% end_loop %>
+		            <% if not $Authors && not $StoryBy %><em class="byline__on">Posted on</em> <% else %><span class="byline__on">on </span><% end_if %><time datetime="$PublishDate.format(c)" itemprop="datePublished">$PublishDate.format("MMMM d, y")</time> <% if $PhotosBy %><em class="blogmeta__media">Media by</em> <% if $PhotosByEmail %><a href="mailto:$PhotosByEmail">$PhotosBy</a><% else %>$PhotosBy<% end_if %><% end_if %></p>
+				</div>
+			</div>
+			<% end_loop %>
+			<div class="column large-6">
+				<% loop $NewsPosts.Limit(3,1) %>
+				<div class="start-tile" style="background-image: url($FeaturedImageURL)">
+					<h3 class="start-tile__news-title"><a href="$Link">$Title</a></h3> <p class="start-tile__description"><% if $Authors %>
+				<em class="byline__by">By </em>
+				<% end_if %>
+				<% loop $Authors %>
+					<% if not $First && not $Last %>, <% end_if %>
+					<% if not $First && $Last %><span class="byline__and"> and </span><% end_if %>
+
+						<a href="$Link" class="byline__author">
+						$Name.XML
+					</a>
+				<% end_loop %>
+		            <% if not $Authors && not $StoryBy %><em class="byline__on">Posted on</em> <% else %><span class="byline__on">on </span><% end_if %><time datetime="$PublishDate.format(c)" itemprop="datePublished">$PublishDate.format("MMMM d, y")</time> <% if $PhotosBy %><em class="blogmeta__media">Media by</em> <% if $PhotosByEmail %><a href="mailto:$PhotosByEmail">$PhotosBy</a><% else %>$PhotosBy<% end_if %><% end_if %></p>
+				</div>
+				<% end_loop %>
 			</div>
 		</div>
 
-		<div class="column large-6">
-			<div class="start-tile start-tile--news1">
-				<h3 class="start-tile__news-title"><a href="https://www.google.com">Looking Back on Leadership: Sia Tortorelis</a></h3> <p class="start-tile__description">By Ellysa Woods</p>
-			</div>
-			<div class="start-tile start-tile--news2">
-				<h3 class="start-tile__news-title"><a href="https://www.google.com">Looking Back on Leadership: Gage Miskimen</a></h3> <p class="start-tile__description">By Allaria Bartlett-Gray</p></div>
-			<div class="start-tile start-tile--news3">
-				<h3 class="start-tile__news-title"><a href="https://www.google.com">Looking Back on Leadership: Hira Mustafa</a></h3> <p class="start-tile__description">By Allaria Bartlett-Gray</p></div>
-			</div>
-		</div>
 
 	<div class="row">
 		<div class="column large-centered"> 
-			<a class="button start__button" href="https://www.google.com">See all the latest news</a>
+			<a class="button start__button" href="https://studentlife.uiowa.edu/news">See all the latest news</a>
 		</div>
 	</div>
 
-<%-- <div class="row large-up-4">
-	<div class="column">
-		<div class="start__bottom">
-			<a class="link__title" href="https://otis.imu.uiowa.edu">Portfolio Process</a> 
-		</div>
-	</div>
-	
-	<div class="column">
-		<div class="start__bottom">
-			<a class="link__title" href="https://otis.imu.uiowa.edu">Wiki</a> 
-		</div>
-	</div>
-	
-	<div class="column">
-		<div class="start__bottom">
-			<a class="link__title" href="https://otis.imu.uiowa.edu">Slack</a> 
-		</div>
-	
-	</div>
-	
-	<div class="column">
-		<div class="start__bottom">
-		
-		<a class="link__title" href="https://otis.imu.uiowa.edu">Gitstart</a>
-	</div>
-		
- </div>
-	
-	<div class="column">
-		<div class="start__bottom">
-		
-		<a class="link__title" href="https://otis.imu.uiowa.edu">Facebook Group (Current Staff)</a> 
-	</div>
-	
-</div>
 
-<div class="column">
-		<div class="start__bottom">
-		
-		<a class="link__title" href="https://otis.imu.uiowa.edu">LinkedIn</a> 
-	</div>
-	
-</div>
-
-<div class="column">
-		<div class="start__bottom">
-		
-		<a class="link__title" href="https://otis.imu.uiowa.edu">M+D Website</a> 
-	</div>
-	
-</div>
-
-<div class="column">
-		<div class="start__bottom">
-		
-		<a class="link__title" href="https://otis.imu.uiowa.edu">Flickr</a> 
-	</div>
-	
-</div>
-	--%>
 </div> 

@@ -42,4 +42,11 @@ class StartPage extends Page {
 
 		return $fields;
 	}
+
+	public function NewsPosts(){
+		$holder = StudentLifeNewsHolder::create();
+
+		return $holder->getBlogPostsFromFeed();
+
+	}
 }

@@ -27,14 +27,15 @@ class StartPageService extends DataObject {
 
 		$parent = $this->StartPage();
 
+
 		$tagField = TagField::create(
 			'Categories',
 			'Categories',
 			$parent->Categories(),
 			$this->Categories()
 		)
-			->setShouldLazyLoad(true) // tags should be lazy loaded
-		->setCanCreate(true);     // new tag DataObjects can be created
+			->setShouldLazyLoad(false) // tags should be lazy loaded
+		->setCanCreate(false);     // new tag DataObjects can be created
 
 
 		$fields->push(new TextField('Title'));

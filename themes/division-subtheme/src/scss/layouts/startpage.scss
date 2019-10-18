@@ -85,6 +85,7 @@
  }
  .start-tile__news-title a{
  	color:white;
+ 	text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
  	font-weight:bold;
  	&:focus, &:hover{color:#FFECA3;}
 
@@ -97,6 +98,7 @@
  }
 
  .start-tile__description{
+ 	text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
  	color:white;
  }
  .start__bottom{
