@@ -1,17 +1,15 @@
 $Header
 <div class="row-fluid">
-	<div <% if BackgroundImage %>style="background-image: url($BackgroundImage.URL)" <% end_if %> class="column one <% if not BackgroundImage %>one--default<% end_if %>">
+	<div <% if BackgroundImage %>style="background-image: url($BackgroundImage.URL)" <% end_if %> class="column start__header <% if not BackgroundImage %>start__header--default<% end_if %>">
 		<%-- <img src="{$ThemeDir}/dist/images/md_color.png"> --%>
-		<h1 class="start-heading">$Title</h1>
+		<h1 class="start-header__h1">$Title</h1>
 	</div>
 </div>
 
 <% if $MainButtonText && $MainButtonLink %>
 <div class="row">
-	<div class="column large-4 large-centered">
-
-		
-		<button class="launch__button"><p class="activecollab__title"><a class="launch__link" href="$MainButtonLink">$MainButtonText</a></p></button>
+	<div class="column large-6 large-centered">
+		<a class="start__big-button" href="$MainButtonLink">$MainButtonText</a>
 	</div>
 </div>
 <% end_if %>
@@ -20,8 +18,8 @@ $Header
 <% loop $Categories %>
 	<% if $Services %>
 		<div class="row">
-			<div class="column start__category-title">
-				<h2>$Title</h2>
+			<div class="column">
+				<h2 class="start__category-title">$Title</h2>
 			</div>
 
 		</div>
@@ -29,7 +27,7 @@ $Header
 			<% loop $Services %>
 			<div class="column">
 				<div class="start-tile">
-					<h2 class="start-tile__heading"><a class="start-tile__heading-link" href="$Link">$Title</a></h2> 
+					<h2 class="start-tile__heading"><a class="start-tile__heading-link" target="_blank" href="$Link">$Title&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a></h2> 
 					<div class="start-tile__description">$Content</div> 
 				</div>
 			</div>
@@ -46,8 +44,8 @@ $Header
 		<div class="row">
 			<% loop NewsPosts.Limit(1) %>
 			<div class="column large-6">
-				<div class="start-tile start-tile--big" style="background-image: url($FeaturedImageURL)">
-					<h3 class="start-tile__news-title"><a href="$Link">$Title</a></h3> <p class="start-tile__description"><% if $Authors %>
+				<div class="start-news-tile start-news-tile--big" style="background-image: url($FeaturedImageURL)">
+					<h3 class="start-news-tile__title"><a href="$Link">$Title</a></h3> <p class="start-news-tile__description"><% if $Authors %>
 				<em class="byline__by">By </em>
 				<% end_if %>
 				<% loop $Authors %>
@@ -64,8 +62,8 @@ $Header
 			<% end_loop %>
 			<div class="column large-6">
 				<% loop $NewsPosts.Limit(3,1) %>
-				<div class="start-tile" style="background-image: url($FeaturedImageURL)">
-					<h3 class="start-tile__news-title"><a href="$Link">$Title</a></h3> <p class="start-tile__description"><% if $Authors %>
+				<div class="start-news-tile" style="background-image: url($FeaturedImageURL)">
+					<h3 class="start-news-tile__title"><a href="$Link">$Title</a></h3> <p class="start-news-tile__description start-news-tile__description--wshadow"><% if $Authors %>
 				<em class="byline__by">By </em>
 				<% end_if %>
 				<% loop $Authors %>
@@ -85,7 +83,7 @@ $Header
 
 	<div class="row">
 		<div class="column large-centered"> 
-			<a class="button start__button" href="https://studentlife.uiowa.edu/news">See all the latest news</a>
+			<a class="start__big-button mb-4" href="https://studentlife.uiowa.edu/news">See all the latest news</a>
 		</div>
 	</div>
 
