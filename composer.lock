@@ -1205,13 +1205,13 @@
             "version": "dev-ss4.x-ui",
             "source": {
                 "type": "git",
-                "url": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events.git",
-                "reference": "5c624fa16e6fa30e809c458b1d4e941827419183"
+                "url": "git@github.com:StudentLifeMarketingAndDesign/ac-json-events.git",
+                "reference": "3c7915fd55ff62159393baecaf0cbfb671a3277b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/5c624fa16e6fa30e809c458b1d4e941827419183",
-                "reference": "5c624fa16e6fa30e809c458b1d4e941827419183",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/3c7915fd55ff62159393baecaf0cbfb671a3277b",
+                "reference": "3c7915fd55ff62159393baecaf0cbfb671a3277b",
                 "shasum": ""
             },
             "require": {
@@ -1226,18 +1226,14 @@
                 ]
             },
             "description": "After Class JSON Display Module",
-            "support": {
-                "source": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/tree/ss4.x-ui",
-                "issues": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/issues"
-            },
-            "time": "2019-08-29T20:43:53+00:00"
+            "time": "2019-11-04T16:22:03+00:00"
         },
         {
             "name": "md/deploy-helper",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/StudentLifeMarketingAndDesign/deploy-helper.git",
+                "url": "git@github.com:StudentLifeMarketingAndDesign/deploy-helper.git",
                 "reference": "e9468da14e66b095923265d00fc59d4e39e77a18"
             },
             "dist": {
@@ -1253,10 +1249,6 @@
             },
             "type": "silverstripe-vendormodule",
             "description": "Deployment Helper",
-            "support": {
-                "source": "https://github.com/StudentLifeMarketingAndDesign/deploy-helper/tree/master",
-                "issues": "https://github.com/StudentLifeMarketingAndDesign/deploy-helper/issues"
-            },
             "time": "2019-08-08T20:45:47+00:00"
         },
         {
@@ -1264,7 +1256,7 @@
             "version": "1.2.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/StudentLifeMarketingAndDesign/division-analytics.git",
+                "url": "git@github.com:StudentLifeMarketingAndDesign/division-analytics.git",
                 "reference": "a237e96c2de3a50b81414a732bc54b721ae083e0"
             },
             "dist": {
@@ -1280,10 +1272,6 @@
             },
             "type": "silverstripe-vendormodule",
             "description": "The University of Iowa Division of Student Life Analytics",
-            "support": {
-                "source": "https://github.com/StudentLifeMarketingAndDesign/division-analytics/tree/1.2.x",
-                "issues": "https://github.com/StudentLifeMarketingAndDesign/division-analytics/issues"
-            },
             "time": "2019-03-08T21:17:46+00:00"
         },
         {
@@ -1355,7 +1343,7 @@
             "version": "dev-md",
             "source": {
                 "type": "git",
-                "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-saml.git",
+                "url": "git@github.com:StudentLifeMarketingAndDesign/silverstripe-saml.git",
                 "reference": "9bbc43c0ce990335311b759ae57e2d3dfde9372b"
             },
             "dist": {
@@ -1413,9 +1401,6 @@
                 "silverstripe",
                 "sso"
             ],
-            "support": {
-                "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-saml/tree/md"
-            },
             "time": "2019-05-23T14:41:38+00:00"
         },
         {
@@ -1423,7 +1408,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-maintenance-mode.git",
+                "url": "git@github.com:StudentLifeMarketingAndDesign/silverstripe-maintenance-mode.git",
                 "reference": "2c6263e47d6d70ca565f2f7b506971379201e070"
             },
             "dist": {
@@ -1477,8 +1462,7 @@
                 "utility page"
             ],
             "support": {
-                "issues": "http://github.com/dljoseph/silverstripe-maintenance-mode/issues",
-                "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-maintenance-mode/tree/master"
+                "issues": "http://github.com/dljoseph/silverstripe-maintenance-mode/issues"
             },
             "time": "2019-06-11T18:38:30+00:00"
         },
@@ -1487,13 +1471,13 @@
             "version": "1.2.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar.git",
-                "reference": "f58bcc6c196412945a6ec33f232fcc61d9ed5adc"
+                "url": "git@github.com:StudentLifeMarketingAndDesign/uiowa-bar.git",
+                "reference": "8f1269a3d33738d140fd62df45d64a3e6fcebe0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/uiowa-bar/zipball/f58bcc6c196412945a6ec33f232fcc61d9ed5adc",
-                "reference": "f58bcc6c196412945a6ec33f232fcc61d9ed5adc",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/uiowa-bar/zipball/8f1269a3d33738d140fd62df45d64a3e6fcebe0b",
+                "reference": "8f1269a3d33738d140fd62df45d64a3e6fcebe0b",
                 "shasum": ""
             },
             "require": {
@@ -1503,11 +1487,7 @@
             },
             "type": "silverstripe-vendormodule",
             "description": "The University of Iowa Bar",
-            "support": {
-                "source": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar/tree/1.2.x",
-                "issues": "https://github.com/StudentLifeMarketingAndDesign/uiowa-bar/issues"
-            },
-            "time": "2018-07-05T17:48:54+00:00"
+            "time": "2019-11-04T15:20:06+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2019,16 +1999,16 @@
         },
         {
             "name": "robrichards/xmlseclibs",
-            "version": "3.0.3",
+            "version": "3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/robrichards/xmlseclibs.git",
-                "reference": "406c68ac9124db033d079284b719958b829cb830"
+                "reference": "0a53d3c3aa87564910cae4ed01416441d3ae0db5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robrichards/xmlseclibs/zipball/406c68ac9124db033d079284b719958b829cb830",
-                "reference": "406c68ac9124db033d079284b719958b829cb830",
+                "url": "https://api.github.com/repos/robrichards/xmlseclibs/zipball/0a53d3c3aa87564910cae4ed01416441d3ae0db5",
+                "reference": "0a53d3c3aa87564910cae4ed01416441d3ae0db5",
                 "shasum": ""
             },
             "require": {
@@ -2053,7 +2033,7 @@
                 "xml",
                 "xmldsig"
             ],
-            "time": "2018-11-15T11:59:02+00:00"
+            "time": "2019-11-05T11:44:22+00:00"
         },
         {
             "name": "silverstripe/admin",
@@ -4227,12 +4207,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/unclecheese/silverstripe-display-logic.git",
-                "reference": "845ab12189439422b6dcd1becd20c9d5a94eb558"
+                "reference": "c5f807dc24765438b427814350cc884ca70498b0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/unclecheese/silverstripe-display-logic/zipball/845ab12189439422b6dcd1becd20c9d5a94eb558",
-                "reference": "845ab12189439422b6dcd1becd20c9d5a94eb558",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-display-logic/zipball/c5f807dc24765438b427814350cc884ca70498b0",
+                "reference": "c5f807dc24765438b427814350cc884ca70498b0",
                 "shasum": ""
             },
             "require": {
@@ -4279,7 +4259,7 @@
                 "logic",
                 "silverstripe"
             ],
-            "time": "2018-11-14T23:16:44+00:00"
+            "time": "2019-10-15T23:31:03+00:00"
         },
         {
             "name": "undefinedoffset/silverstripe-nocaptcha",
