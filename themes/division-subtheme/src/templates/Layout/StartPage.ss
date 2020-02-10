@@ -35,7 +35,7 @@ $Header
 		</div>
 	<% end_if %>
 <% end_loop %>
-		<div class="row">
+<%-- 		<div class="row">
 			<div class="column start__category-title">
 				<h2>Recent News</h2>
 			</div>
@@ -85,7 +85,7 @@ $Header
 		<div class="column large-centered"> 
 			<a class="start__big-button mb-4" href="https://studentlife.uiowa.edu/news">See all the latest news</a>
 		</div>
-	</div>
+	</div> --%>
 
 
 </div> 
