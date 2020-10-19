@@ -23,9 +23,9 @@ $Header
 			</div>
 
 		</div>
-		<div class="row large-up-3">
+		<div class="grid-x grid-padding-x medium-up-3 large-up-4">
 			<% loop $Services %>
-			<div class="column">
+			<div class="cell">
 				<div class="start-tile">
 					<a class="start-tile__heading-link button button--no-caps button--flex-full text-center large" target="_blank" href="$Link">$Title&nbsp;<i class="fa fa-external-link-alt" aria-hidden="true"></i></a>
 					<div class="start-tile__description">$Content</div> 
