@@ -9,7 +9,7 @@ $Header
 <% if $MainButtonText && $MainButtonLink %>
 <div class="row expanded">
 	<div class="column large-6 large-centered">
-		<a class="start__big-button button black" href="$MainButtonLink">$MainButtonText</a>
+		<a class="start__big-button button button--no-caps black" href="$MainButtonLink">$MainButtonText</a>
 	</div>
 </div>
 <% end_if %>
@@ -27,7 +27,7 @@ $Header
 			<% loop $Services %>
 			<div class="column">
 				<div class="start-tile">
-					<a class="start-tile__heading-link button button--flex-full text-center large" target="_blank" href="$Link">$Title&nbsp;<i class="fa fa-external-link-alt" aria-hidden="true"></i></a>
+					<a class="start-tile__heading-link button button--no-caps button--flex-full text-center large" target="_blank" href="$Link">$Title&nbsp;<i class="fa fa-external-link-alt" aria-hidden="true"></i></a>
 					<div class="start-tile__description">$Content</div> 
 				</div>
 			</div>
