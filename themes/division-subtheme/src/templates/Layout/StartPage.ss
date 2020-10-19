@@ -9,7 +9,7 @@ $Header
 <% if $MainButtonText && $MainButtonLink %>
 <div class="row expanded">
 	<div class="column large-6 large-centered">
-		<a class="start__big-button button button--no-caps black" href="$MainButtonLink">$MainButtonText</a>
+		<a class="start__big-button button button--no-caps black" href="$MainButtonLink">$MainButtonText&nbsp;<i class="fa fa-external-link-alt" aria-hidden="true"></i></a>
 	</div>
 </div>
 <% end_if %>
