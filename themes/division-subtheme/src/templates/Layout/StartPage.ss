@@ -1,5 +1,5 @@
 $Header
-<div class="row-fluid">
+<div class="row expanded">
 	<div <% if BackgroundImage %>style="background-image: url($BackgroundImage.URL)" <% end_if %> class="column start__header <% if not BackgroundImage %>start__header--default<% end_if %>">
 		<%-- <img src="{$ThemeDir}/dist/images/md_color.png"> --%>
 		<h1 class="start-header__h1">$Title</h1>
@@ -7,9 +7,9 @@ $Header
 </div>
 
 <% if $MainButtonText && $MainButtonLink %>
-<div class="row">
+<div class="row expanded">
 	<div class="column large-6 large-centered">
-		<a class="start__big-button" href="$MainButtonLink">$MainButtonText</a>
+		<a class="start__big-button button black" href="$MainButtonLink">$MainButtonText</a>
 	</div>
 </div>
 <% end_if %>
@@ -27,7 +27,7 @@ $Header
 			<% loop $Services %>
 			<div class="column">
 				<div class="start-tile">
-					<h2 class="start-tile__heading"><a class="start-tile__heading-link" target="_blank" href="$Link">$Title&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a></h2> 
+					<a class="start-tile__heading-link button button--flex-full text-center large" target="_blank" href="$Link">$Title&nbsp;<i class="fa fa-external-link-alt" aria-hidden="true"></i></a>
 					<div class="start-tile__description">$Content</div> 
 				</div>
 			</div>
