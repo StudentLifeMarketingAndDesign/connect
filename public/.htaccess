@@ -52,3 +52,4 @@ ErrorDocument 500 /assets/error-500.html
     RewriteRule .* index.php
 </IfModule>
 ### SILVERSTRIPE END ###
+
