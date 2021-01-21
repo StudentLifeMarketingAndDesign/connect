@@ -1406,12 +1406,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "517e260efebfb3c2c6ba89d748a4517f9c563361"
+                "reference": "668c0688c1ec53b370de69ebdad9721335b5c535"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/517e260efebfb3c2c6ba89d748a4517f9c563361",
-                "reference": "517e260efebfb3c2c6ba89d748a4517f9c563361",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/668c0688c1ec53b370de69ebdad9721335b5c535",
+                "reference": "668c0688c1ec53b370de69ebdad9721335b5c535",
                 "shasum": ""
             },
             "require": {
@@ -1460,7 +1460,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/3",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2021-01-21T16:50:27+00:00"
+            "time": "2021-01-21T17:17:24+00:00"
         },
         {
             "name": "md/saml",
@@ -2189,12 +2189,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/quamsta/silverstripe-api-cacher.git",
-                "reference": "0ab87200c20806173d4b3daafe0f02a4a5f3b351"
+                "reference": "a7980147b71aae5a632477013aa327cf101dcdf0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/quamsta/silverstripe-api-cacher/zipball/0ab87200c20806173d4b3daafe0f02a4a5f3b351",
-                "reference": "0ab87200c20806173d4b3daafe0f02a4a5f3b351",
+                "url": "https://api.github.com/repos/quamsta/silverstripe-api-cacher/zipball/a7980147b71aae5a632477013aa327cf101dcdf0",
+                "reference": "a7980147b71aae5a632477013aa327cf101dcdf0",
                 "shasum": ""
             },
             "require": {
@@ -2239,7 +2239,7 @@
                 "issues": "https://github.com/quamsta/silverstripe-api-cacher/issues",
                 "source": "https://github.com/quamsta/silverstripe-api-cacher/tree/master"
             },
-            "time": "2020-06-23T20:06:41+00:00"
+            "time": "2021-01-21T17:12:19+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
