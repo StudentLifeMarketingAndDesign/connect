@@ -12,13 +12,3 @@ SilverStripe\Core\Injector\Injector:
     properties:
       Authenticators:
         default: %$SilverStripe\SAML\Authenticators\SAMLAuthenticator
-#   SilverStripe\Control\Director:
-#     properties:
-#       Middlewares:
-#         SAMLMiddleware: %$SilverStripe\SAML\Middleware\SAMLMiddleware
-# SilverStripe\SAML\Middleware\SAMLMiddleware:
-#   enabled: true
-#   excluded_urls:
-#     - '/^Security/i'
-#     - '/^saml/i'
-#     - '/^dev/i'

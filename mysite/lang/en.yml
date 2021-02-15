@@ -1,0 +1,7 @@
+en:
+  SilverStripe\Admin\LeftAndMain:
+    PERMALREADY: 'Sorry, but you can''t access that part of the website.'
+  SilverStripe\Security\Security:
+    ALREADYLOGGEDIN: 'Sorry, there was an issue accessing this page. Please email us at imu-web@uiowa.edu if you''re having trouble.'
+  SilverStripe\Security\Security:
+    NOTEPAGESECURED: 'Having trouble logging in? Please email Student Life Communications at imu-web@uiowa.edu.'

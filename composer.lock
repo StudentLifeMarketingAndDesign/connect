@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "41b5bd40652c12d959a405485da0ee70",
+    "content-hash": "304752e8b39d6a1a9c8e134da1a20afc",
     "packages": [
         {
             "name": "bramus/ansi-php",
@@ -1402,16 +1402,16 @@
         },
         {
             "name": "md/division-project",
-            "version": "dev-3-dsl-employees",
+            "version": "3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "6cce75b456fd5ba064306d97c41a36b46194dec8"
+                "reference": "2ce156c4e8593bb81fddcfe9bf8ce06a2e020f18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/6cce75b456fd5ba064306d97c41a36b46194dec8",
-                "reference": "6cce75b456fd5ba064306d97c41a36b46194dec8",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/2ce156c4e8593bb81fddcfe9bf8ce06a2e020f18",
+                "reference": "2ce156c4e8593bb81fddcfe9bf8ce06a2e020f18",
                 "shasum": ""
             },
             "require": {
@@ -1424,7 +1424,7 @@
                 "jonom/silverstripe-betternavigator": "4.*",
                 "md/ac-json-events": "3.*",
                 "md/division-analytics": "1.3.x",
-                "md/saml": "dev-dsl-employees",
+                "md/saml": "dev-md",
                 "md/silverstripe-maintenance-mode": "dev-master",
                 "md/uiowa-bar": "2.*",
                 "paquettg/php-html-parser": "^2.2",
@@ -1457,23 +1457,23 @@
             },
             "description": "The University of Iowa Division of Student Life Project Code and Theme",
             "support": {
-                "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/3-dsl-employees",
+                "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/3",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2021-02-08T16:19:02+00:00"
+            "time": "2021-02-15T20:18:39+00:00"
         },
         {
             "name": "md/saml",
-            "version": "dev-dsl-employees",
+            "version": "dev-md",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-saml.git",
-                "reference": "bc45178600aeea28789ff5c7e6cede1f1e709d77"
+                "reference": "4ac255d9b9ce5689120a7602ae0673549ce45677"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/silverstripe-saml/zipball/bc45178600aeea28789ff5c7e6cede1f1e709d77",
-                "reference": "bc45178600aeea28789ff5c7e6cede1f1e709d77",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/silverstripe-saml/zipball/4ac255d9b9ce5689120a7602ae0673549ce45677",
+                "reference": "4ac255d9b9ce5689120a7602ae0673549ce45677",
                 "shasum": ""
             },
             "require": {
@@ -1528,7 +1528,7 @@
             "support": {
                 "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-saml/tree/dsl-employees"
             },
-            "time": "2021-02-08T16:21:28+00:00"
+            "time": "2021-02-15T20:15:34+00:00"
         },
         {
             "name": "md/silverstripe-maintenance-mode",
@@ -3082,57 +3082,6 @@
                 "source": "https://github.com/silverstripe/silverstripe-lumberjack/tree/2.0"
             },
             "time": "2020-01-17T03:56:22+00:00"
-        },
-        {
-            "name": "silverstripe/mathspamprotection",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/silverstripe/silverstripe-mathspamprotection.git",
-                "reference": "570eec324c89578f299e2340681b74edb7b3c712"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-mathspamprotection/zipball/570eec324c89578f299e2340681b74edb7b3c712",
-                "reference": "570eec324c89578f299e2340681b74edb7b3c712",
-                "shasum": ""
-            },
-            "require": {
-                "silverstripe/spamprotection": "^3"
-            },
-            "default-branch": true,
-            "type": "silverstripe-vendormodule",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "3.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "SilverStripe\\MathSpamProtection\\": "code/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Will Rossiter",
-                    "email": "will@fullscreen.io"
-                }
-            ],
-            "description": "This module provides a simple math protection mechanism for prevent spam from your forms.Includes an EditableMathSpamField to integrate with the UserForms module.",
-            "keywords": [
-                "mathspamprotection",
-                "silverstripe",
-                "spamprotection"
-            ],
-            "support": {
-                "issues": "https://github.com/silverstripe/silverstripe-mathspamprotection/issues",
-                "source": "https://github.com/silverstripe/silverstripe-mathspamprotection/tree/master"
-            },
-            "time": "2018-06-28T21:15:27+00:00"
         },
         {
             "name": "silverstripe/mimevalidator",
@@ -6982,10 +6931,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "md/division-project": 20,
-        "silverstripe/mathspamprotection": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
