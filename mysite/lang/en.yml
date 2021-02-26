@@ -3,4 +3,4 @@ en:
     PERMALREADY: 'Sorry, there was an issue accessing this page.'
   SilverStripe\Security\Security:
     ALREADYLOGGEDIN: 'Sorry, there was an issue accessing this page.'
-    NOTEPAGESECURED: 'This page is secured. Please log in below.'
+    NOTEPAGESECURED: ''
