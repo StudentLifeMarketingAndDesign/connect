@@ -33,7 +33,7 @@ $Header
                     <h2>$SubHeading</h2>
                 <% end_if %>
 
-<form id="TopicSearchForm_SearchForm" action="{$AbsoluteBaseURL}home/SearchForm" method="get" enctype="application/x-www-form-urlencoded" class="topic-search-form topic-search-form--homepage topic-search-form--large">
+<form id="TopicSearchForm_SearchForm" action="{$AbsoluteBaseURL}/home/SearchForm" method="get" enctype="application/x-www-form-urlencoded" class="topic-search-form topic-search-form--homepage topic-search-form--large">
         <div class="topic-search-form__fields">
         
         
