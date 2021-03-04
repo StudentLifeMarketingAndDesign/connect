@@ -8,3 +8,22 @@
 .topic-search-form__input {
     padding: rem-calc(10);
 }
+
+//Autocomplete for homepage:
+
+.topic-search-form {
+
+    .autocomplete-suggestion:nth-child(n+2) {
+        display: none;
+    }
+
+    @include breakpoint(medium) {
+        .autocomplete-suggestion:nth-child(n+2) {
+            display: block;
+        }
+
+        .autocomplete-suggestion:nth-child(n+4) {
+            display: none;
+        }
+    }
+}
