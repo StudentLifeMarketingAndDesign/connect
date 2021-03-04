@@ -49,4 +49,17 @@ class StartPageService extends DataObject {
 		return $fields;
 
 	}
+
+	public function LinkDomain() {
+
+		$url = $this->Link;
+		$parsedUrl = array();
+		$parsedUrl = parse_url($url);
+
+		if (isset($parsedUrl['host'])) {
+			return $parsedUrl['host'];
+		}
+
+	}
+
 }

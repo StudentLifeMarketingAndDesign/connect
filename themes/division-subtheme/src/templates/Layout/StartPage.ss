@@ -23,12 +23,16 @@ $Header
 			</div>
 
 		</div>
-		<div class="grid-x grid-padding-x medium-up-3 large-up-4">
+		<div class="grid-x grid-padding-x medium-up-3 large-up-4 align-center">
 			<% loop $Services %>
 			<div class="cell">
 				<div class="start-tile">
 					<a class="start-tile__heading-link button button--no-caps button--flex-full text-center large" target="_blank" href="$Link">$Title&nbsp;<i class="fa fa-external-link-alt" aria-hidden="true"></i></a>
+					<% if $Content %>
 					<div class="start-tile__description">$Content</div> 
+					<% else %>
+					<div class="start-tile__description"><a href="$Link">$LinkDomain <i class="fa fa-external-link-alt" aria-hidden="true"></i></a></div> 
+					<% end_if %>
 				</div>
 			</div>
 			<% end_loop %>
