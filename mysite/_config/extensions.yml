@@ -1,0 +1,7 @@
+---
+Name: connect-extensions
+---
+SilverStripe\Blog\Model\BlogPost:
+  extensions:
+    - BlogPostStartPageExtension
+    - BlogStartPageExtension

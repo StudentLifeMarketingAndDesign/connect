@@ -41,6 +41,16 @@
     margin-top: 50px;
     margin-bottom: 50px;
     border-bottom: 2px solid $yellow;
+
+    &--small {
+        font-size: 18px;
+        text-align: left;
+        border-width: 1px;
+        /* border-color: #eee; */
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
 }
 
 .start-tile {
@@ -88,6 +98,7 @@
     text-align: left;
     margin-bottom: 20px;
     background-position: 50% 50%;
+    background-color: black;
 
     @include breakpoint(medium) {
         margin-bottom: 40px;
@@ -100,7 +111,7 @@
     border-color: #FFCD00;
     min-height: 750px;
     border-width: 50px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("../images/portrait.jpg");
+    background-color: #000;
     background-size: cover;
 }
 

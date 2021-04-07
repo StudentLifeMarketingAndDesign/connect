@@ -13,7 +13,21 @@ $Header
 	</div>
 </div>
 <% end_if %>
+		<div class="row">
+			<div class="column">
+				<h2 class="start__category-title start__category-title--small">Recent News</h2>
+			</div>
 
+		</div>
+<div class="row small-up-2 medium-up-3 large-up-4" style="margin-top: 20px">
+<% loop NewsPosts.Limit(4) %>
+	<div class="column column-block" style="margin-bottom: 0">
+	
+		<h2 style="font-size: 16px;"><a href="$Link">$Title</a></h2>
+		<p style="font-size: 14px;">$PublishDate.Nice</p>
+	</div>
+<% end_loop %>
+</div>
 
 <% loop $Categories %>
 	<% if $Services %>
@@ -46,7 +60,7 @@ $Header
 
 		</div>
 		<div class="row">
-			<% loop NewsPosts.Limit(1) %>
+			<% loop NewsPosts.Limit(2) %>
 			<div class="column large-6">
 				<div class="start-news-tile start-news-tile--big" style="background-image: url($FeaturedImageURL)">
 					<h3 class="start-news-tile__title"><a href="$Link">$Title</a></h3> <p class="start-news-tile__description"><% if $Authors %>

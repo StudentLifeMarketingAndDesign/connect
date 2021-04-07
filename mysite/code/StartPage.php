@@ -1,5 +1,6 @@
 <?php
 
+use SilverStripe\Blog\Model\BlogPost;
 use SilverStripe\Forms\GridField\GridField;
 use SilverStripe\Forms\GridField\GridFieldAddExistingAutocompleter;
 use SilverStripe\Forms\GridField\GridFieldConfig_RelationEditor;
@@ -20,6 +21,10 @@ class StartPage extends Page {
 	private static $has_many = array(
 		'Services' => 'StartPageService',
 		'Categories' => 'StartPageCategory',
+	);
+
+	private static $belongs_many_many = array(
+		'BlogPosts' => BlogPost::class,
 	);
 
 	public function getCMSFields() {
