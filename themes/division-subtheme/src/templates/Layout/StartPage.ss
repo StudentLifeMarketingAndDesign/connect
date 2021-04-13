@@ -13,14 +13,14 @@ $Header
 		</div>
 	</div>
 <% end_if %>
-<% if $NewsPosts %>
+<% if $BlogPosts %>
 	<div class="row">
 		<div class="column">
 			<h2 class="start__category-title start__category-title--small">Recent News</h2>
 		</div>
 	</div>
 	<div class="row small-up-2 medium-up-3 large-up-4" style="margin-top: 20px">
-		<% loop NewsPosts.Limit(4) %>
+		<% loop BlogPosts.Limit(4) %>
 			<div class="column column-block" style="margin-bottom: 0">
 			
 				<h2 style="font-size: 16px;"><a href="$Link">$Title</a></h2>
@@ -30,7 +30,7 @@ $Header
 	</div>
 	<div class="row">
 		<div class="column text-center">
-			<a href="$MoreNewsLink" class="button tiny hollow black" style="display: inline-block;">More news from $Title <i class="fas fa-arrow-right"></i></a>
+			<a href="$MoreNewsLink" class="button tiny hollow black" style="margin-top: 20px; display: inline-block;">More news from $Title <i class="fas fa-arrow-right"></i></a>
 		</div>
 	</div>
 <% end_if %>
