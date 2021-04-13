@@ -14,7 +14,7 @@ class BlogStartPageExtension extends DataExtension {
 
 	public function updateGetBlogPosts($posts) {
 
-		print_r($posts);
+		// print_r('updateGetBlogPosts');
 
 	}
 

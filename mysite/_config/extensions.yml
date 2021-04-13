@@ -4,4 +4,9 @@ Name: connect-extensions
 SilverStripe\Blog\Model\BlogPost:
   extensions:
     - BlogPostStartPageExtension
+SilverStripe\Blog\Model\BlogPost:
+  extensions:
     - BlogStartPageExtension
+SilverStripe\Blog\Model\BlogController:
+  extensions:
+    - BlogStartPageControllerExtension

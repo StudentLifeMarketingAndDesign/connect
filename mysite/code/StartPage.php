@@ -1,5 +1,5 @@
 <?php
-
+use SilverStripe\Blog\Model\Blog;
 use SilverStripe\Blog\Model\BlogPost;
 use SilverStripe\Forms\GridField\GridField;
 use SilverStripe\Forms\GridField\GridFieldAddExistingAutocompleter;
@@ -56,9 +56,19 @@ class StartPage extends Page {
 	}
 
 	public function NewsPosts() {
-		$holder = StudentLifeNewsHolder::create();
+		//$holder = StudentLifeNewsHolder::create();
 
-		return $holder->getBlogPostsFromFeed();
+		//return $holder->getBlogPostsFromFeed();
+
+		$posts = BlogPost::get();
+		return $posts;
+	}
+
+	public function MoreNewsLink() {
+
+		$blog = Blog::get()->first();
+
+		return $blog->Link('department/' . $this->URLSegment);
 
 	}
 }

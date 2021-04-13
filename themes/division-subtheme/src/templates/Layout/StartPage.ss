@@ -1,33 +1,39 @@
 $Header
 <div class="row expanded">
-	<div <% if BackgroundImage %>style="background-image: url($BackgroundImage.URL)" <% end_if %> class="column start__header <% if not BackgroundImage %>start__header--default<% end_if %>">
+	<div <% if BackgroundImage %>style="background-image: url($BackgroundImage.URL)" <% end_if %> class="column start__header <% if not BackgroundImage %>start__header--default<% end_if %> <% if $MainButtonText && $MainButtonLink %>start__header--w-button<% end_if %>">
 		<%-- <img src="{$ThemeDir}/dist/images/md_color.png"> --%>
 		<h1 class="start-header__h1">$Title</h1>
 	</div>
 </div>
 
 <% if $MainButtonText && $MainButtonLink %>
-<div class="row expanded">
-	<div class="column large-6 large-centered">
-		<a class="start__big-button button button--no-caps black" href="$MainButtonLink">$MainButtonText&nbsp;<i class="fa fa-external-link-alt" aria-hidden="true"></i></a>
-	</div>
-</div>
-<% end_if %>
-		<div class="row">
-			<div class="column">
-				<h2 class="start__category-title start__category-title--small">Recent News</h2>
-			</div>
-
+	<div class="row expanded">
+		<div class="column large-6 large-centered">
+			<a class="start__big-button button button--no-caps black" href="$MainButtonLink">$MainButtonText&nbsp;<i class="fa fa-external-link-alt" aria-hidden="true"></i></a>
 		</div>
-<div class="row small-up-2 medium-up-3 large-up-4" style="margin-top: 20px">
-<% loop NewsPosts.Limit(4) %>
-	<div class="column column-block" style="margin-bottom: 0">
-	
-		<h2 style="font-size: 16px;"><a href="$Link">$Title</a></h2>
-		<p style="font-size: 14px;">$PublishDate.Nice</p>
 	</div>
-<% end_loop %>
-</div>
+<% end_if %>
+<% if $NewsPosts %>
+	<div class="row">
+		<div class="column">
+			<h2 class="start__category-title start__category-title--small">Recent News</h2>
+		</div>
+	</div>
+	<div class="row small-up-2 medium-up-3 large-up-4" style="margin-top: 20px">
+		<% loop NewsPosts.Limit(4) %>
+			<div class="column column-block" style="margin-bottom: 0">
+			
+				<h2 style="font-size: 16px;"><a href="$Link">$Title</a></h2>
+				<p style="font-size: 14px;">Posted on $PublishDate.format("MMMM d, y")</p>
+			</div>
+		<% end_loop %>
+	</div>
+	<div class="row">
+		<div class="column text-center">
+			<a href="$MoreNewsLink" class="button tiny hollow black" style="display: inline-block;">More news from $Title <i class="fas fa-arrow-right"></i></a>
+		</div>
+	</div>
+<% end_if %>
 
 <% loop $Categories %>
 	<% if $Services %>
