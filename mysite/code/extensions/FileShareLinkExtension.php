@@ -1,7 +1,6 @@
 <?php
 
 use SilverStripe\Forms\FieldList;
-use SilverStripe\Forms\ReadonlyField;
 use SilverStripe\ORM\DataExtension;
 
 class FileShareLinkExtension extends DataExtension {
@@ -18,7 +17,7 @@ class FileShareLinkExtension extends DataExtension {
 
 		$id = $record->urlParams['ItemID'];
 
-		$fields->push(ReadonlyField::create('FileShareLink', null, 'https://connect.studentlife.uiowa.edu/Security/login?BackURL=https://connect.studentlife.uiowa.edu/admin/assets/show/0/edit/' . $id)->setDescription('Please use the link above to share this file with logged in users if you\'ve restricted permissions to it.'));
+		// $fields->push(ReadonlyField::create('FileShareLink', null, 'https://connect.studentlife.uiowa.edu/Security/login?BackURL=https://connect.studentlife.uiowa.edu/admin/assets/show/0/edit/' . $id)->setDescription('Please use the link above to share this file with logged in users if you\'ve restricted permissions to it.'));
 		// print_r('updateGetBlogPosts');
 
 	}
