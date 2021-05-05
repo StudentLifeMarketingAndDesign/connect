@@ -10,3 +10,6 @@ SilverStripe\Blog\Model\BlogPost:
 SilverStripe\Blog\Model\BlogController:
   extensions:
     - BlogStartPageControllerExtension
+SilverStripe\AssetAdmin\Forms\FileFormFactory:
+  extensions:
+    - FileShareLinkExtension
